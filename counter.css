@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(28, 31, 48);
+  padding-top: 5%;
+}
+#counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  color: rgb(172, 176, 172);
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, -2px 0 0 black, 2px 0 0 black, 0 -2px 0 black,
+    0 2px 0 black;
+  margin: auto auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px 1px black;
+  background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+}
+h2,
+#number-count {
+  margin: 12px;
+}
+button {
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  width: 180px;
+}
+button:hover {
+  padding: 9px;
+  box-shadow: 0px 0px 3px 2px grey;
+}
+#increment-btn {
+  background-color: red;
+}
+#save-btn {
+  background-color: green;
+}
+#save-el {
+  font-weight: bold;
+}
+.instruction {
+  color: white;
+  padding: 6px 6px;
+  text-align: justify;
+  font-size: 12px;
+  font-weight: 600;
+}
